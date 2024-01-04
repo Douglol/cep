@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+:root
+{
+    --mode1: rgb(49, 49, 49);
+    --mode2: rgb(27, 27, 27);
+    --mode3: greenyellow;
+    --mode4: black;
+}
+
+/* 
+    darkmode1: rgb(49, 49, 49);
+    darkmode2: rgb(27, 27, 27);
+    darkmode3: green;
+    lightmode1: rgb(228, 228, 228);
+    lightmode2: white;
+    lightmode3: greenyellow;
+ */
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--mode2);
+}
+
+.entradas
+{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    background-color: var(--mode1);
+    border-radius: 10px;
+}
+
+input
+{
+    background-color: var(--mode2);
+    color: var(--mode3);
+    width: 275px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+input::placeholder
+{
+    color: var(--mode3);
+    font-family: 'Preahvihear', sans-serif;
+}
+
+select
+{
+    background-color: var(--mode2);
+    margin: 10px;
+    padding: 10px;
+    color: var(--mode3);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+button
+{
+    background-color: var(--mode3);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Preahvihear', sans-serif;
+    color: var(--mode4);
+}
+
+.final
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.mode
+{
+    display: flex;
+    justify-content: center;
+    background-color: var(--mode1);
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: var(--mode3);
+}
+
+h3
+{
+    margin: 0;
+    font-family: 'Preahvihear', sans-serif;
+}
